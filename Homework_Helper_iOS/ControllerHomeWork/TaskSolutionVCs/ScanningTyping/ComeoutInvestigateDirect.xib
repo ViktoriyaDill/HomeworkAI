@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComeoutInvestigateDirect" customModule="Homework_Helper_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="outgoingProceedMagical" destination="wxO-Qf-AU8" id="wnU-vY-hG4"/>
+                <outlet property="compoundRewindFreshPoint" destination="Wfx-m7-Sfv" id="Mjk-7g-Z17"/>
+                <outlet property="rightawayTakeEquipped" destination="Euq-0c-Mdo" id="UGq-eA-hjX"/>
+                <outlet property="patheticOptimizeCompanionableAnalysis" destination="gDp-4e-dAZ" id="p2o-ZM-rSD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gDp-4e-dAZ">
+                    <rect key="frame" x="20" y="216" width="353" height="500"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Euq-0c-Mdo">
+                    <rect key="frame" x="151.66666666666666" y="728" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="NLu-Xl-EDK"/>
+                        <constraint firstAttribute="width" constant="90" id="Ur6-y2-gMc"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="PhotoLogo"/>
+                    <connections>
+                        <action selector="adversaryDeriveClever:" destination="-1" eventType="touchUpInside" id="4R0-x9-BcP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxO-Qf-AU8">
+                    <rect key="frame" x="305.66666666666669" y="747" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="42c-NH-byl"/>
+                        <constraint firstAttribute="width" constant="44" id="onX-n7-5L0"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="FlashLogo"/>
+                    <connections>
+                        <action selector="sinkSignFarreachingProperty:" destination="-1" eventType="touchUpInside" id="cEk-2e-gWi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfx-m7-Sfv">
+                    <rect key="frame" x="43.666666666666657" y="747" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="LPg-Gi-f7Z"/>
+                        <constraint firstAttribute="width" constant="44" id="zNs-tC-R1I"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="GaleryLogo"/>
+                    <connections>
+                        <action selector="destinyScrubEnterprising:" destination="-1" eventType="touchUpInside" id="rSi-RR-nzY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <constraints>
+                <constraint firstItem="Euq-0c-Mdo" firstAttribute="top" secondItem="gDp-4e-dAZ" secondAttribute="bottom" constant="12" id="0gE-Kp-pbj"/>
+                <constraint firstItem="wxO-Qf-AU8" firstAttribute="top" secondItem="gDp-4e-dAZ" secondAttribute="bottom" constant="31" id="1fo-hH-6Y3"/>
+                <constraint firstItem="Euq-0c-Mdo" firstAttribute="leading" secondItem="Wfx-m7-Sfv" secondAttribute="trailing" constant="64" id="EZI-y6-CLD"/>
+                <constraint firstItem="gDp-4e-dAZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="216" id="GRj-ff-WBe"/>
+                <constraint firstItem="gDp-4e-dAZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="QnE-J0-O8r"/>
+                <constraint firstItem="wxO-Qf-AU8" firstAttribute="leading" secondItem="Euq-0c-Mdo" secondAttribute="trailing" constant="64" id="Rh9-21-l5k"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gDp-4e-dAZ" secondAttribute="trailing" constant="20" id="VZT-ya-omJ"/>
+                <constraint firstItem="Wfx-m7-Sfv" firstAttribute="top" secondItem="gDp-4e-dAZ" secondAttribute="bottom" constant="31" id="Xrg-TF-EeH"/>
+                <constraint firstItem="Euq-0c-Mdo" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" constant="-34" id="hpB-aW-zbt"/>
+                <constraint firstItem="Euq-0c-Mdo" firstAttribute="centerX" secondItem="gDp-4e-dAZ" secondAttribute="centerX" id="ojO-oX-Omc"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="-12"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FlashLogo" width="156" height="156"/>
+        <image name="GaleryLogo" width="156" height="156"/>
+        <image name="PhotoLogo" width="270" height="270"/>
+    </resources>
+</document>

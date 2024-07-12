@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IntelligenceAssistCharismatic" customModule="Homework_Helper_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="enlargeDirectExpedientTeam" destination="IEa-4v-FT1" id="8I5-5A-WMB"/>
+                <outlet property="tableView" destination="qmw-rn-5ec" id="yEm-Vc-1wY"/>
+                <outlet property="ringCollectFrank" destination="JAl-7E-hbl" id="mbp-Cq-OK0"/>
+                <outlet property="view" destination="sZQ-Gw-chn" id="Dne-Ls-ROm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="sZQ-Gw-chn">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iwi-s1-EXH">
+                    <rect key="frame" x="0.0" y="59" width="393" height="76"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAl-7E-hbl">
+                            <rect key="frame" x="124" y="26" width="145" height="24"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Select Language">
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="20" name="SFProDisplay-Medium"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="29.649999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops>
+                                                <textTab alignment="left" location="29.649999618530273">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iuo-Ap-9t3">
+                            <rect key="frame" x="20" y="16" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="c7J-eq-9Yo"/>
+                                <constraint firstAttribute="height" constant="44" id="xHE-6D-wlW"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="CloseLogo"/>
+                            <connections>
+                                <action selector="comefromVisitInsightfulCompetition:" destination="-1" eventType="touchUpInside" id="Wnh-t2-jnX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="JAl-7E-hbl" firstAttribute="centerX" secondItem="iwi-s1-EXH" secondAttribute="centerX" id="18C-cW-i5m"/>
+                        <constraint firstItem="JAl-7E-hbl" firstAttribute="centerY" secondItem="iwi-s1-EXH" secondAttribute="centerY" id="1UX-B0-UL4"/>
+                        <constraint firstItem="iuo-Ap-9t3" firstAttribute="centerY" secondItem="iwi-s1-EXH" secondAttribute="centerY" id="4c7-y2-Xg7"/>
+                        <constraint firstAttribute="height" constant="76" id="9YB-fd-ynT"/>
+                        <constraint firstItem="iuo-Ap-9t3" firstAttribute="leading" secondItem="iwi-s1-EXH" secondAttribute="leading" constant="20" id="ARo-Vx-aQf"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qmw-rn-5ec">
+                    <rect key="frame" x="20" y="135" width="353" height="594"/>
+                    <color key="backgroundColor" name="BackgroundColor"/>
+                    <color key="sectionIndexBackgroundColor" name="BackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="oxW-d4-dpH"/>
+                        <outlet property="delegate" destination="-1" id="qva-zr-jnN"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEa-4v-FT1">
+                    <rect key="frame" x="20" y="754" width="353" height="64"/>
+                    <color key="backgroundColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="ye4-II-5ed"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain">
+                        <attributedString key="attributedTitle">
+                            <fragment content="Choose">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="16" name="SFProDisplay-Medium"/>
+                                    <real key="NSKern" value="0.0"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                        <tabStops/>
+                                    </paragraphStyle>
+                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <real key="NSStrokeWidth" value="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="sourReloadEmpoweredRecord:" destination="-1" eventType="touchUpInside" id="F9D-Tp-LAT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="KM9-u1-1Ti"/>
+            <color key="backgroundColor" name="BackgroundColor"/>
+            <constraints>
+                <constraint firstItem="qmw-rn-5ec" firstAttribute="leading" secondItem="KM9-u1-1Ti" secondAttribute="leading" constant="20" id="1dc-sF-Oio"/>
+                <constraint firstItem="IEa-4v-FT1" firstAttribute="top" secondItem="qmw-rn-5ec" secondAttribute="bottom" constant="25" id="4Gn-2V-Bfz"/>
+                <constraint firstItem="KM9-u1-1Ti" firstAttribute="trailing" secondItem="qmw-rn-5ec" secondAttribute="trailing" constant="20" id="55h-nl-eGS"/>
+                <constraint firstItem="iwi-s1-EXH" firstAttribute="leading" secondItem="sZQ-Gw-chn" secondAttribute="leading" id="5zm-Xn-Pkv"/>
+                <constraint firstItem="KM9-u1-1Ti" firstAttribute="trailing" secondItem="iwi-s1-EXH" secondAttribute="trailing" id="Hsb-hQ-wkj"/>
+                <constraint firstItem="iwi-s1-EXH" firstAttribute="top" secondItem="KM9-u1-1Ti" secondAttribute="top" id="If6-yF-jep"/>
+                <constraint firstItem="qmw-rn-5ec" firstAttribute="top" secondItem="iwi-s1-EXH" secondAttribute="bottom" id="ZnI-vb-Tdp"/>
+                <constraint firstAttribute="bottom" secondItem="IEa-4v-FT1" secondAttribute="bottom" constant="34" id="iGC-AW-q1o"/>
+                <constraint firstItem="KM9-u1-1Ti" firstAttribute="trailing" secondItem="IEa-4v-FT1" secondAttribute="trailing" constant="20" id="ipo-7P-dtP"/>
+                <constraint firstItem="IEa-4v-FT1" firstAttribute="leading" secondItem="KM9-u1-1Ti" secondAttribute="leading" constant="20" id="mZU-s5-7pk"/>
+            </constraints>
+            <point key="canvasLocation" x="278.62595419847327" y="86.619718309859152"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CloseLogo" width="44" height="44"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

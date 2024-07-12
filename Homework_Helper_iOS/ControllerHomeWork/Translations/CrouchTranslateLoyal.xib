@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CrouchTranslateLoyal" customModule="Homework_Helper_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="onbehalfofPerformIntegralCar" destination="nqe-nI-4dO" id="Dm5-0j-Vzl"/>
+                <outlet property="argueResumeCareful" destination="TOM-az-R6X" id="5G4-32-25D"/>
+                <outlet property="deskReloadEngaging" destination="z1O-gU-oLP" id="35b-6V-U2d"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6qu-M3-ROZ">
+                    <rect key="frame" x="0.0" y="59" width="393" height="76"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUu-e8-C3J">
+                            <rect key="frame" x="20" y="16" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="aZy-an-k8G"/>
+                                <constraint firstAttribute="width" constant="44" id="juE-AO-s7c"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="BackBtnLogo"/>
+                            <connections>
+                                <action selector="lookRateFreeOccasion:" destination="-1" eventType="touchUpInside" id="GO7-Cc-Bfk"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Qv-ZL-xda">
+                            <rect key="frame" x="143.33333333333334" y="25" width="106.33333333333334" height="26"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Translations">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="SFProDisplay-Medium"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="Dfs-tF-NiQ"/>
+                    <color key="backgroundColor" name="BackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="8Qv-ZL-xda" firstAttribute="centerY" secondItem="6qu-M3-ROZ" secondAttribute="centerY" id="DqF-p3-LA0"/>
+                        <constraint firstAttribute="bottom" secondItem="8Qv-ZL-xda" secondAttribute="bottom" constant="25" id="hrS-x5-haJ"/>
+                        <constraint firstItem="8Qv-ZL-xda" firstAttribute="centerX" secondItem="6qu-M3-ROZ" secondAttribute="centerX" id="iiW-lh-7To"/>
+                        <constraint firstItem="mUu-e8-C3J" firstAttribute="leading" secondItem="6qu-M3-ROZ" secondAttribute="leading" constant="20" id="leM-PW-sJL"/>
+                        <constraint firstAttribute="height" constant="76" id="nZ3-de-rea"/>
+                        <constraint firstAttribute="bottom" secondItem="mUu-e8-C3J" secondAttribute="bottom" constant="16" id="uen-uC-ZZu"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z1O-gU-oLP">
+                    <rect key="frame" x="20" y="135" width="353" height="661"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOM-az-R6X">
+                            <rect key="frame" x="20" y="20" width="313" height="621"/>
+                            <color key="backgroundColor" red="0.92941176469999998" green="0.93725490199999995" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <attributedString key="attributedText">
+                                <fragment>
+                                    <mutableString key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                    <attributes>
+                                        <color key="NSColor" systemColor="labelColor"/>
+                                        <font key="NSFont" size="16" name="SFProDisplay-Regular"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqe-nI-4dO">
+                            <rect key="frame" x="309" y="617" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="PqT-GD-ETW"/>
+                                <constraint firstAttribute="height" constant="24" id="YQZ-97-yMn"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="districtDetectGleamingService"/>
+                            <connections>
+                                <action selector="needleTrackExcellent:" destination="-1" eventType="touchUpInside" id="zUS-80-16u"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.93725490199999995" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="TOM-az-R6X" secondAttribute="trailing" constant="20" id="6BJ-Pt-1Zs"/>
+                        <constraint firstAttribute="bottom" secondItem="nqe-nI-4dO" secondAttribute="bottom" constant="20" id="8RG-9S-1bA"/>
+                        <constraint firstItem="TOM-az-R6X" firstAttribute="top" secondItem="z1O-gU-oLP" secondAttribute="top" constant="20" id="H4j-wZ-NuR"/>
+                        <constraint firstAttribute="bottom" secondItem="TOM-az-R6X" secondAttribute="bottom" constant="20" id="T7P-fb-VOj"/>
+                        <constraint firstItem="TOM-az-R6X" firstAttribute="leading" secondItem="z1O-gU-oLP" secondAttribute="leading" constant="20" id="frP-M7-gec"/>
+                        <constraint firstAttribute="trailing" secondItem="nqe-nI-4dO" secondAttribute="trailing" constant="20" id="ihk-sW-FhK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BackgroundColor"/>
+            <constraints>
+                <constraint firstItem="6qu-M3-ROZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="RL9-hP-UHc"/>
+                <constraint firstItem="6qu-M3-ROZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="crA-Kd-nvo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="z1O-gU-oLP" secondAttribute="trailing" constant="20" id="dJs-8R-t6H"/>
+                <constraint firstItem="z1O-gU-oLP" firstAttribute="top" secondItem="6qu-M3-ROZ" secondAttribute="bottom" id="df5-tE-OnC"/>
+                <constraint firstAttribute="trailing" secondItem="6qu-M3-ROZ" secondAttribute="trailing" id="eKy-ZC-Jpf"/>
+                <constraint firstAttribute="bottom" secondItem="z1O-gU-oLP" secondAttribute="bottom" constant="56" id="ot1-vg-ezR"/>
+                <constraint firstItem="z1O-gU-oLP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="t4u-p3-1RZ"/>
+            </constraints>
+            <point key="canvasLocation" x="88" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackBtnLogo" width="176" height="176"/>
+        <image name="districtDetectGleamingService" width="24" height="24"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

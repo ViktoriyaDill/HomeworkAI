@@ -1,0 +1,30 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "SquadConstructAsynchronousEvent.png",
+      "scale" : "3x",
+      "idiom" : "iphone"
+    },
+    {
+      "scale" : "1x",
+      "idiom" : "ipad",
+      "filename" : "ComplainRetainCoherentGathering.png"
+    },
+    {
+      "scale" : "2x",
+      "idiom" : "ipad"
+    }
+  ]
+}

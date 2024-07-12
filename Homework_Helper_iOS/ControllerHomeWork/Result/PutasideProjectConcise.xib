@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PutasideProjectConcise" customModule="Homework_Helper_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="onbehalfofPerformIntegralCar" destination="bgC-wO-KIP" id="bfT-n0-iXw"/>
+                <outlet property="outskirtsSaveKind" destination="4XM-vQ-yeJ" id="edW-RR-3fH"/>
+                <outlet property="setoutInjectCrucial" destination="Ek3-9B-aLB" id="Nam-iN-icJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yue-Ht-3MW">
+                    <rect key="frame" x="0.0" y="59" width="393" height="76"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xv6-Uv-4Tv">
+                            <rect key="frame" x="121.66666666666669" y="26" width="150" height="24"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Explain the Topic">
+                                    <attributes>
+                                        <font key="NSFont" metaFont="system" size="20"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyL-gr-Z69">
+                            <rect key="frame" x="20" y="16" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="fgu-xy-Pmb"/>
+                                <constraint firstAttribute="height" constant="44" id="kos-Pv-8m0"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="CloseLogo"/>
+                            <connections>
+                                <action selector="blandDraftInterested:" destination="-1" eventType="touchUpInside" id="o0d-mu-XPB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="BackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="xv6-Uv-4Tv" firstAttribute="centerX" secondItem="Yue-Ht-3MW" secondAttribute="centerX" id="4zp-ad-vgY"/>
+                        <constraint firstItem="xv6-Uv-4Tv" firstAttribute="centerY" secondItem="Yue-Ht-3MW" secondAttribute="centerY" id="8z0-qd-Kh1"/>
+                        <constraint firstItem="uyL-gr-Z69" firstAttribute="leading" secondItem="Yue-Ht-3MW" secondAttribute="leading" constant="20" id="Scd-Sj-2FF"/>
+                        <constraint firstItem="uyL-gr-Z69" firstAttribute="centerY" secondItem="Yue-Ht-3MW" secondAttribute="centerY" id="aT2-oQ-avz"/>
+                        <constraint firstAttribute="height" constant="76" id="ui4-G9-qkT"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ek3-9B-aLB">
+                    <rect key="frame" x="20" y="165" width="353" height="460"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4XM-vQ-yeJ">
+                            <rect key="frame" x="20" y="20" width="313" height="420"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <attributedString key="attributedText">
+                                <fragment>
+                                    <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                    <attributes>
+                                        <color key="NSColor" systemColor="labelColor"/>
+                                        <font key="NSFont" size="16" name="SFProDisplay-Regular"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgC-wO-KIP">
+                            <rect key="frame" x="309" y="416" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="e3o-O0-wCo"/>
+                                <constraint firstAttribute="width" constant="24" id="qFF-h2-EiF"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="districtDetectGleamingService"/>
+                            <connections>
+                                <action selector="needleTrackExcellent:" destination="-1" eventType="touchUpInside" id="hXg-JC-fJX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="4XM-vQ-yeJ" firstAttribute="top" secondItem="Ek3-9B-aLB" secondAttribute="top" constant="20" id="Epk-bQ-yyC"/>
+                        <constraint firstItem="4XM-vQ-yeJ" firstAttribute="leading" secondItem="Ek3-9B-aLB" secondAttribute="leading" constant="20" id="Jfi-yB-4Rx"/>
+                        <constraint firstAttribute="trailing" secondItem="4XM-vQ-yeJ" secondAttribute="trailing" constant="20" id="NDV-b5-eVq"/>
+                        <constraint firstAttribute="trailing" secondItem="bgC-wO-KIP" secondAttribute="trailing" constant="20" id="RTG-xH-xec"/>
+                        <constraint firstAttribute="bottom" secondItem="4XM-vQ-yeJ" secondAttribute="bottom" constant="20" id="ixy-WM-ZYk"/>
+                        <constraint firstAttribute="bottom" secondItem="bgC-wO-KIP" secondAttribute="bottom" constant="20" id="riJ-YG-2jY"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SolutionLogo" translatesAutoresizingMaskIntoConstraints="NO" id="obh-fA-ecc">
+                    <rect key="frame" x="20" y="135" width="122" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="CXp-kX-g2G"/>
+                        <constraint firstAttribute="width" constant="122" id="cfl-qY-BFg"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BackgroundColor"/>
+            <constraints>
+                <constraint firstItem="obh-fA-ecc" firstAttribute="leading" secondItem="Ek3-9B-aLB" secondAttribute="leading" id="2i7-6w-LTJ"/>
+                <constraint firstItem="Ek3-9B-aLB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="6HI-VM-xOj"/>
+                <constraint firstItem="Yue-Ht-3MW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="VjT-XD-F40"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Ek3-9B-aLB" secondAttribute="bottom" constant="193" id="aCa-KG-J2M"/>
+                <constraint firstItem="Yue-Ht-3MW" firstAttribute="bottom" secondItem="obh-fA-ecc" secondAttribute="top" id="cEz-od-upt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Yue-Ht-3MW" secondAttribute="trailing" id="fJW-Xk-ed1"/>
+                <constraint firstAttribute="trailing" secondItem="Ek3-9B-aLB" secondAttribute="trailing" constant="20" id="nPy-uw-wSn"/>
+                <constraint firstItem="Ek3-9B-aLB" firstAttribute="top" secondItem="Yue-Ht-3MW" secondAttribute="bottom" constant="30" id="oju-RO-oz5"/>
+                <constraint firstItem="Yue-Ht-3MW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zwO-Ls-d1j"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CloseLogo" width="44" height="44"/>
+        <image name="SolutionLogo" width="366" height="132"/>
+        <image name="districtDetectGleamingService" width="24" height="24"/>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

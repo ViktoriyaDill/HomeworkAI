@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SkilletReviseEnhanced" customModule="Homework_Helper_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="dishUndergoCompleteEstate" destination="aiG-gg-duI" id="cQZ-nc-VlH"/>
+                <outlet property="navigationBar" destination="ivO-8q-UOv" id="C0g-bk-1QY"/>
+                <outlet property="nightmareRateEnhancedHighway" destination="Z3Z-8W-7Dg" id="Xij-vC-CKC"/>
+                <outlet property="stapleCollectHumbleCustomer" destination="jsI-xl-yIi" id="2q9-KM-AAO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="waryUnifyGlistening" destination="0dm-VS-QmR" id="8Xh-o1-W4y"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivO-8q-UOv">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="135"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntN-L1-9Ri">
+                            <rect key="frame" x="20" y="75" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="Tmp-HF-c9B"/>
+                                <constraint firstAttribute="width" constant="44" id="fYt-iD-ree"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="BackBtnLogo"/>
+                            <connections>
+                                <action selector="lookRateFreeOccasion:" destination="-1" eventType="touchUpInside" id="KQn-aa-chN"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiG-gg-duI">
+                            <rect key="frame" x="115.00000000000001" y="84" width="163.33333333333337" height="26"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Crop only one task">
+                                    <attributes>
+                                        <font key="NSFont" metaFont="system" size="20"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="BackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="aiG-gg-duI" firstAttribute="centerX" secondItem="ivO-8q-UOv" secondAttribute="centerX" id="9hz-mC-8vP"/>
+                        <constraint firstItem="aiG-gg-duI" firstAttribute="top" secondItem="ivO-8q-UOv" secondAttribute="top" constant="84" id="BLs-fb-10T"/>
+                        <constraint firstAttribute="bottom" secondItem="ntN-L1-9Ri" secondAttribute="bottom" constant="16" id="D5U-ty-50W"/>
+                        <constraint firstAttribute="height" constant="135" id="JW2-P3-nl0"/>
+                        <constraint firstAttribute="bottom" secondItem="aiG-gg-duI" secondAttribute="bottom" constant="25" id="hN7-Tf-zN5"/>
+                        <constraint firstItem="ntN-L1-9Ri" firstAttribute="leading" secondItem="ivO-8q-UOv" secondAttribute="leading" constant="20" id="wRX-xl-0E6"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z3Z-8W-7Dg">
+                    <rect key="frame" x="20" y="135" width="353" height="64"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="uXB-gj-T5M">
+                            <rect key="frame" x="10" y="10" width="333" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsI-xl-yIi">
+                                    <rect key="frame" x="0.0" y="0.0" width="159" height="44"/>
+                                    <color key="backgroundColor" red="0.60392156860000001" green="0.63529411759999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="mTz-B1-xzR"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="TypingLogo " imagePlacement="trailing" title="Typing" imagePadding="8"/>
+                                    <connections>
+                                        <action selector="coasterDisperseManageable:" destination="-1" eventType="touchUpInside" id="FqQ-Sj-AE3"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dm-VS-QmR">
+                                    <rect key="frame" x="174" y="0.0" width="159" height="44"/>
+                                    <color key="backgroundColor" name="AccentColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="Cs2-7J-pIc"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
+                                    <state key="normal" title="Scanning" image="smallScanLogo"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="smallScanLogo" imagePlacement="trailing" title="Scanning" imagePadding="8"/>
+                                    <connections>
+                                        <action selector="vengeanceDiscoverInnovative:" destination="-1" eventType="touchUpInside" id="vjj-BV-rf1"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="5o1-HR-A4r"/>
+                        <constraint firstItem="uXB-gj-T5M" firstAttribute="leading" secondItem="Z3Z-8W-7Dg" secondAttribute="leading" constant="10" id="Hrs-PK-h9g"/>
+                        <constraint firstAttribute="trailing" secondItem="uXB-gj-T5M" secondAttribute="trailing" constant="10" id="Iru-fp-Ep8"/>
+                        <constraint firstItem="uXB-gj-T5M" firstAttribute="centerY" secondItem="Z3Z-8W-7Dg" secondAttribute="centerY" id="kOv-9M-hA3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Z3Z-8W-7Dg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="CJi-Nu-FOl"/>
+                <constraint firstItem="ivO-8q-UOv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IMc-07-8CD"/>
+                <constraint firstItem="ivO-8q-UOv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LEz-xf-vdZ"/>
+                <constraint firstItem="Z3Z-8W-7Dg" firstAttribute="top" secondItem="ivO-8q-UOv" secondAttribute="bottom" id="ORd-Qg-ayR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ivO-8q-UOv" secondAttribute="trailing" id="QbO-7u-Yxq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Z3Z-8W-7Dg" secondAttribute="trailing" constant="20" id="iNs-A7-3h6"/>
+                <constraint firstItem="Z3Z-8W-7Dg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wxJ-rL-3ec"/>
+                <constraint firstItem="ivO-8q-UOv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="x45-rl-Fz6"/>
+            </constraints>
+            <point key="canvasLocation" x="-2.2900763358778624" y="-12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackBtnLogo" width="176" height="176"/>
+        <image name="TypingLogo " width="32" height="32"/>
+        <image name="smallScanLogo" width="32" height="32"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

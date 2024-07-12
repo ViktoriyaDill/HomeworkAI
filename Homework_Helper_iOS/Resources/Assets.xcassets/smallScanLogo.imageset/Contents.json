@@ -1,0 +1,30 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "images" : [
+    {
+      "scale" : "1x",
+      "idiom" : "iphone"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "scale" : "3x",
+      "filename" : "CharityProgramConstructive.png",
+      "idiom" : "iphone"
+    },
+    {
+      "scale" : "1x",
+      "idiom" : "ipad",
+      "filename" : "HarmInvestigateAgileOffice.png"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "2x"
+    }
+  ]
+}

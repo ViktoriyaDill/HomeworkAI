@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="CoalAssignCharismatic" translatesAutoresizingMaskIntoConstraints="NO" id="gTV-IL-0wX" customClass="CoalAssignCharismatic" customModule="Homework_Helper_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="324"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="324"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="INg-02-Pef">
+                        <rect key="frame" x="19.999999999999993" y="20.000000000000004" width="114.33333333333331" height="38.333333333333343"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZmH-Jo-VQp">
+                                <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="38.333333333333336"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="205" id="tof-GT-mMh"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Text">
+                                        <attributes>
+                                            <font key="NSFont" size="32" name="SFProDisplay-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Math" translatesAutoresizingMaskIntoConstraints="NO" id="6JO-Sl-Rdu">
+                                <rect key="frame" x="76.333333333333329" y="0.0" width="38" height="38"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="2e7-ma-gqY"/>
+                                    <constraint firstAttribute="width" constant="38" id="vug-i9-jKv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="BiE-9k-5FV">
+                        <rect key="frame" x="20" y="105.33333333333331" width="54" height="101"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="MxZ-9s-nFD">
+                                <rect key="frame" x="0.0" y="0.0" width="53.333333333333336" height="23"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarkLogo" translatesAutoresizingMaskIntoConstraints="NO" id="W0e-ap-jLo">
+                                        <rect key="frame" x="0.0" y="0.0" width="10" height="23"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="6mf-Fx-LyD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPO-NA-rPl">
+                                        <rect key="frame" x="21.000000000000004" y="0.0" width="32.333333333333343" height="23"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Text">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="SFProDisplay-Medium"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="h9R-9d-sWl"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="lnh-54-PUf">
+                                <rect key="frame" x="0.0" y="39.000000000000014" width="54" height="23"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarkLogo" translatesAutoresizingMaskIntoConstraints="NO" id="0wC-Nk-XCx">
+                                        <rect key="frame" x="0.0" y="0.0" width="10" height="23"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="t8Q-Tf-71i"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgW-HS-cu6">
+                                        <rect key="frame" x="21" y="0.0" width="33" height="23"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Text">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="SFProDisplay-Medium"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="eP1-jk-WFh"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="eZr-FG-bAK">
+                                <rect key="frame" x="0.0" y="78.000000000000014" width="54" height="23"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarkLogo" translatesAutoresizingMaskIntoConstraints="NO" id="lGf-Zz-qMg">
+                                        <rect key="frame" x="0.0" y="0.0" width="10" height="23"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="rwd-QL-NtK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GB6-dG-Ry9">
+                                        <rect key="frame" x="21" y="0.0" width="33" height="23"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Text">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="SFProDisplay-Medium"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="sfi-Yq-VZX"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaz-vL-64T">
+                        <rect key="frame" x="20" y="243.33333333333334" width="234" height="60.666666666666657"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SearchButton" translatesAutoresizingMaskIntoConstraints="NO" id="xbI-Tk-dHh">
+                                <rect key="frame" x="182" y="8.3333333333333144" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="vCz-mn-NXr"/>
+                                    <constraint firstAttribute="width" constant="44" id="yDg-Gr-2eq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DS4-L0-ZjC">
+                                <rect key="frame" x="16" y="19.666666666666657" width="91" height="21.666666666666671"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Get Answer">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="SFProDisplay-Medium"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xbI-Tk-dHh" firstAttribute="centerY" secondItem="vaz-vL-64T" secondAttribute="centerY" id="1ge-dE-JeO"/>
+                            <constraint firstAttribute="height" constant="60.670000000000002" id="2Nr-fb-Y4p"/>
+                            <constraint firstAttribute="trailing" secondItem="xbI-Tk-dHh" secondAttribute="trailing" constant="8" id="XCq-G5-4ZF"/>
+                            <constraint firstItem="DS4-L0-ZjC" firstAttribute="centerY" secondItem="vaz-vL-64T" secondAttribute="centerY" id="Z3L-1r-fsE"/>
+                            <constraint firstAttribute="width" constant="234" id="eQ6-5Q-bkI"/>
+                            <constraint firstItem="DS4-L0-ZjC" firstAttribute="leading" secondItem="vaz-vL-64T" secondAttribute="leading" constant="16" id="ilW-m7-ABh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vaz-vL-64T" secondAttribute="bottom" constant="20" id="Bqb-wA-JGK"/>
+                <constraint firstItem="BiE-9k-5FV" firstAttribute="leading" secondItem="INg-02-Pef" secondAttribute="leading" id="SSZ-3I-HZx"/>
+                <constraint firstItem="INg-02-Pef" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="UJA-p9-Qs4"/>
+                <constraint firstItem="BiE-9k-5FV" firstAttribute="top" relation="lessThanOrEqual" secondItem="INg-02-Pef" secondAttribute="bottom" constant="47" id="mxb-R0-fk4"/>
+                <constraint firstItem="INg-02-Pef" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="qVr-DU-FnB"/>
+                <constraint firstItem="vaz-vL-64T" firstAttribute="leading" secondItem="INg-02-Pef" secondAttribute="leading" id="rbe-K8-Ufx"/>
+            </constraints>
+            <connections>
+                <outlet property="supportResizeEthicalOperation" destination="vaz-vL-64T" id="KyM-Ti-1SW"/>
+                <outlet property="versatileDirectBrisk" destination="6JO-Sl-Rdu" id="tQd-OW-LIh"/>
+                <outlet property="querySequenceCleverPlot" destination="ZmH-Jo-VQp" id="HPd-7j-hmh"/>
+                <outlet property="implementDecodeGraciousPerformance" destination="eZr-FG-bAK" id="10G-dM-Zix"/>
+                <outlet property="shortageCleanInformative" destination="kPO-NA-rPl" id="c3v-WR-kzG"/>
+                <outlet property="heaveDiscardForemost" destination="XgW-HS-cu6" id="1jH-1V-VNV"/>
+                <outlet property="pantEnumerateLively" destination="GB6-dG-Ry9" id="81I-5V-LqW"/>
+                <outlet property="jarScoreBeneficialYard" destination="BiE-9k-5FV" id="FsV-zc-ECF"/>
+            </connections>
+            <point key="canvasLocation" x="-21.374045801526716" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="MarkLogo" width="40" height="41"/>
+        <image name="Math" width="152" height="152"/>
+        <image name="SearchButton" width="58.666667938232422" height="58.666667938232422"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

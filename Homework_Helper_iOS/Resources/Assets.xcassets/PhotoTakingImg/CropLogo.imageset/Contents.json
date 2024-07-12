@@ -1,0 +1,30 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "images" : [
+    {
+      "scale" : "1x",
+      "idiom" : "iphone"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "filename" : "FacilityWakeAssuredRepresentative.png"
+    },
+    {
+      "filename" : "ImmediateMonitorEducated.png",
+      "scale" : "1x",
+      "idiom" : "ipad"
+    },
+    {
+      "scale" : "2x",
+      "idiom" : "ipad"
+    }
+  ]
+}

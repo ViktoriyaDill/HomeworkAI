@@ -1,0 +1,21 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "images" : [
+    {
+      "scale" : "1x",
+      "filename" : "VocabularyResetEnergeticPlatform.png",
+      "idiom" : "universal"
+    },
+    {
+      "scale" : "2x",
+      "idiom" : "universal"
+    },
+    {
+      "scale" : "3x",
+      "idiom" : "universal"
+    }
+  ]
+}
