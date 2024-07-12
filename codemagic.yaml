@@ -12,9 +12,9 @@ workflows:
         bundle_identifier: com.goodHomework.dev
       vars:
         BUNDLE_ID: "com.goodHomework.dev"
-        XCODE_WORKSPACE: "Bluetooth_Finder.xcodeproj" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "Bluetooth_Finder" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6504097501
+        XCODE_WORKSPACE: "Homework_Helper_iOS.xcodeproj" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "Homework_Helper_iOS" # <-- Put the name of your Xcode scheme here
+        APP_STORE_APPLE_ID: 6535647181
       xcode: latest
       cocoapods: default
     scripts:
