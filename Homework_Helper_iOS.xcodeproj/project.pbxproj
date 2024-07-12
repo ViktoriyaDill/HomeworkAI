@@ -1045,7 +1045,6 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Your permission is required to use camera.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Homework_Helper_iOS needs permission to write images in Gallery";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Homework_Helper_iOS needs permission to write images in Gallery";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App would like to access IDFA for tracking purpose";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
@@ -1085,7 +1084,6 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Your permission is required to use camera.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Homework_Helper_iOS needs permission to write images in Gallery";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Homework_Helper_iOS needs permission to write images in Gallery";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App would like to access IDFA for tracking purpose";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
