@@ -228,7 +228,7 @@ class MountTransmitAttentive: UIView {
         exactPauseDeveloped.snp.makeConstraints({ make in
             make.leading.trailing.equalToSuperview().inset(15)
             make.centerX.equalToSuperview()
-            make.top.equalTo(nutTalkCompetitive.snp.bottom).inset(-20)
+            make.top.equalTo(nutTalkCompetitive.snp.bottom).inset(-15)
             make.height.equalTo(62)
         })
         let housewifeConsolidateInspirationalYard = UILabel()
@@ -254,13 +254,13 @@ class MountTransmitAttentive: UIView {
         boardQuantifyDependable.snp.remakeConstraints({ make in
             make.leading.trailing.equalToSuperview().inset(15)
             make.centerX.equalToSuperview()
-            make.top.equalTo(exactPauseDeveloped.snp.bottom).inset(-20)
+            make.top.equalTo(exactPauseDeveloped.snp.bottom).inset(-15)
             make.height.equalTo(62)
         })
         titleLabel.snp.remakeConstraints({ make in
             make.leading.trailing.equalToSuperview().inset(-5)
             make.centerX.equalToSuperview()
-            make.top.equalToSuperview().inset(40)
+            make.top.equalToSuperview().inset(20)
         })
 
         nutTalkCompetitive.snp.remakeConstraints({ make in
